@@ -7,7 +7,7 @@ from telebot import types
 import time
 import sys, re, os, random
  
-TOKEN = '268148963:AAFQXKeAehuQ3e8QHE6GawibeeBCXgev2qU' 
+TOKEN = 'YOUR API KEY' 
  
 bot = telebot.TeleBot(TOKEN)
  
