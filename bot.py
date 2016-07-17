@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+ #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 
@@ -7,7 +7,7 @@ from telebot import types
 import time
 import sys, re, os, random
  
-TOKEN = 'YOUR API KEY' 
+TOKEN = str(open("../../APIKEY.txt", 'r').read()).replace("\n","")
  
 bot = telebot.TeleBot(TOKEN)
  
